@@ -16,7 +16,7 @@
         }
     ],
     "require":     {
-        "zendframework/zend-form": "2.3.*",
+        "zendframework/zendframework1": "1.*",
         "symfony/symfony": "2.6.*",
         "twig/twig": "~1.0"
     },
