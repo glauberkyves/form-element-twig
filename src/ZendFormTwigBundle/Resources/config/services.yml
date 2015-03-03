@@ -1,6 +1,6 @@
 services:
     form_select.twig_extension:
-        class: ZendFormElementTwigBundle\Twig\FormSelectExtension
+        class: GlauberKyves\ZendFormTwigBundle\Twig\FormSelectExtension
         arguments:  ["@service_container"]
         tags:
             - { name: twig.extension }

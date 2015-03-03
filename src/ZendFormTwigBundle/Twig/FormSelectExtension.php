@@ -6,7 +6,7 @@
  * Time: 08:09
  */
 
-namespace ZendFormElementTwigBundle\Twig;
+namespace GlauberKyves\ZendFormTwig\Twig;
 
 class FormSelectExtension extends \Twig_Extension
 {

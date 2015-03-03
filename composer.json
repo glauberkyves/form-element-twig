@@ -1,5 +1,5 @@
 {
-    "name":        "glauberkyves/form-element-twig",
+    "name":        "glauberkyves/zend-form-twig",
     "description": "Custon functions for html in twig",
     "keywords":    ["glauberkyves", "twig", "html", "function"],
     "license":     "MIT",
@@ -22,9 +22,9 @@
     },
     "autoload":    {
         "psr-0": {
-            "GlauberKyves\\FormElementTwig": ""
+            "GlauberKyves\\ZendFormTwig": ""
         }
     },
-    "target-dir":  "GlauberKyves/zend-form-twig/src/ZendFormElementTwigBundle"
+    "target-dir":  "GlauberKyves/zend-form-twig/src/ZendFormTwigBundle"
 }
 

@@ -1,3 +1,0 @@
-zend_form_element_twig_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: ZendFormElementTwigBundle:Default:index }
