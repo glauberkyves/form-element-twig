@@ -1,0 +1,6 @@
+services:
+    app.form_select_extension:
+            class: ZendFormElementTwigBundle\Twig\FormSelectExtension
+            arguments:  ["@service_container"]
+            tags:
+                - { name: twig.extension }
