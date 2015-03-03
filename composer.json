@@ -25,6 +25,6 @@
             "GlauberKyves\\FormElementTwig": ""
         }
     },
-    "target-dir":  "GlauberKyves/FormElementTwig"
+    "target-dir":  "GlauberKyves/zend-form-twig/src/ZendFormElementTwigBundle"
 }
 
