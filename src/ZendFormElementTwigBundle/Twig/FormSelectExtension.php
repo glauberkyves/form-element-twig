@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Glauber
- * Date: 30/01/15
- * Time: 10:34
+ * User: Administrador
+ * Date: 27/02/2015
+ * Time: 08:09
  */
 
 namespace ZendFormElementTwigBundle\Twig;
@@ -17,11 +17,6 @@ class FormSelectExtension extends \Twig_Extension
         );
     }
 
-    public function getName()
-    {
-        return 'form_select_extension';
-    }
-
     public function formSelect($name, $value = null, $attribs = null, $options = null, $listsep = "<br />\n")
     {
         $formSelect = new \Zend_View_Helper_FormSelect();
@@ -29,4 +24,8 @@ class FormSelectExtension extends \Twig_Extension
         return $formSelect->formSelect($name, $value = null, $attribs = null, $options = null, $listsep = "<br />\n");
     }
 
+    public function getName()
+    {
+        return 'form_select_extension';
+    }
 }

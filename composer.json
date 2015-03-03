@@ -1,35 +1,30 @@
 {
-  "name": "glauberkyves/zend-form-twig",
-  "description": "Custon functions for html in twig",
-  "keywords": [
-    "glauberkyves",
-    "twig",
-    "html",
-    "function"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Glauber Kyves",
-      "email": "glauberkyves@gmail.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.zendframework.com/"
-    }
-  ],
-  "require": {
-    "zendframework/zendframework1": "1.*",
-    "symfony/symfony": "2.6.*",
-    "twig/twig": "~1.0"
-  },
-  "autoload": {
-    "psr-0": {
-      "GlauberKyves\\ZendFormTwig": ""
-    }
-  },
-  "target-dir": "GlauberKyves/ZendFormTwig"
+    "name":        "glauberkyves/form-element-twig",
+    "description": "Custon functions for html in twig",
+    "keywords":    ["glauberkyves", "twig", "html", "function"],
+    "license":     "MIT",
+    "authors":     [
+        {
+            "name":  "Glauber Kyves",
+            "email": "glauberkyves@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "require":     {
+        "zendframework/zendframework1": "1.*",
+        "symfony/symfony": "2.6.*",
+        "twig/twig": "~1.0"
+    },
+    "autoload":    {
+        "psr-0": {
+            "GlauberKyves\\FormElementTwig": ""
+        }
+    },
+    "target-dir":  "GlauberKyves/FormElementTwig"
 }
 
