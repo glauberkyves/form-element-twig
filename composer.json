@@ -18,6 +18,6 @@
             "GlauberKyves\\Bundle\\ZendFormTwigBundle": ""
         }
     },
-    "target-dir":  ""
+    "target-dir":  "GlauberKyves/Bundle/ZendFormTwigBundle"
 }
 

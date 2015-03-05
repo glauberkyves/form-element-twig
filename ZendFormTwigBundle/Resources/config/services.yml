@@ -1,5 +1,5 @@
 services:
     app.form_select_extension:
-        class: GlauberKyves\ZendFormTwigBundle\Twig\FormSelectExtension
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormSelectExtension
         tags:
             - { name: twig.extension }

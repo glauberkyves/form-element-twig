@@ -1,6 +1,6 @@
 <?php
 
-namespace GlauberKyves\ZendFormTwigBundle\DependencyInjection;
+namespace GlauberKyves\Bundle\ZendFormTwigBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

@@ -6,7 +6,7 @@
  * Time: 10:34
  */
 
-namespace GlauberKyves\ZendFormTwigBundle\Twig;
+namespace GlauberKyves\Bundle\ZendFormTwigBundle\Twig;
 
 class FormSelectExtension extends AbstractExtension
 {
