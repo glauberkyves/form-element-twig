@@ -1,31 +1,13 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Administrador
- * Date: 27/02/2015
- * Time: 08:09
+ * User: Glauber
+ * Date: 30/01/15
+ * Time: 10:34
  */
 
-namespace GlauberKyves\ZendFormTwig\Twig;
+namespace GlauberKyves\ZendFormTwigBundle\Twig;
 
-class FormSelectExtension extends \Twig_Extension
+class FormSelectExtension extends AbstractExtension
 {
-    public function getFilters()
-    {
-        return array(
-            new \Twig_SimpleFilter('formSelect', array($this, 'formSelect')),
-        );
-    }
-
-    public function formSelect($name, $value = null, $attribs = null, $options = null, $listsep = "<br />\n")
-    {
-        $formSelect = new \Zend_View_Helper_FormSelect();
-
-        return $formSelect->formSelect($name, $value = null, $attribs = null, $options = null, $listsep = "<br />\n");
-    }
-
-    public function getName()
-    {
-        return 'form_select_extension';
-    }
 }

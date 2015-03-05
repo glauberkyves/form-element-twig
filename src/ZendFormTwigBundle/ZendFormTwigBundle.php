@@ -1,6 +1,6 @@
 <?php
 
-namespace GlauberKyves\ZendFormTwig;
+namespace GlauberKyves\ZendFormTwigBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
