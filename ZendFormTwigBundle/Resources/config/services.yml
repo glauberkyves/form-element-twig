@@ -1,5 +1,65 @@
 services:
+    app.form_form_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormFormExtension
+        tags:
+            - { name: twig.extension }
+    app.form_button_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormButtonExtension
+        tags:
+            - { name: twig.extension }
+    app.form_checkbox_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormCheckboxExtension
+        tags:
+            - { name: twig.extension }
+    app.form_file_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormFileExtension
+        tags:
+            - { name: twig.extension }
+    app.form_hidden_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormHiddenExtension
+        tags:
+            - { name: twig.extension }
+    app.form_image_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormImageExtension
+        tags:
+            - { name: twig.extension }
+    app.form_label_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormLabelExtension
+        tags:
+            - { name: twig.extension }
+    app.form_multicheckbox_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormMultiCheckboxExtension
+        tags:
+            - { name: twig.extension }
+    app.form_note_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormNoteExtension
+        tags:
+            - { name: twig.extension }
+    app.form_password_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormPasswordExtension
+        tags:
+            - { name: twig.extension }
+    app.form_radio_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormRadioExtension
+        tags:
+            - { name: twig.extension }
+    app.form_reset_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormResetExtension
+        tags:
+            - { name: twig.extension }
     app.form_select_extension:
         class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormSelectExtension
+        tags:
+            - { name: twig.extension }
+    app.form_submit_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormSubmitExtension
+        tags:
+            - { name: twig.extension }
+    app.form_text_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormTextExtension
+        tags:
+            - { name: twig.extension }
+    app.form_textarea_extension:
+        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormTextareaExtension
         tags:
             - { name: twig.extension }
