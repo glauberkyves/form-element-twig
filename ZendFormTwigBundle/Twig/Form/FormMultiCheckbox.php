@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/FormElement.php';
+
 class FormMultiCheckbox extends FormRadio
 {
     /**

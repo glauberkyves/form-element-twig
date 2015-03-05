@@ -1,8 +1,4 @@
 services:
-    app.form_form_extension:
-        class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormFormExtension
-        tags:
-            - { name: twig.extension }
     app.form_button_extension:
         class: GlauberKyves\Bundle\ZendFormTwigBundle\Twig\FormButtonExtension
         tags:

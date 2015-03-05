@@ -39,8 +39,7 @@ abstract class HtmlElement
      */
     protected function _isXhtml()
     {
-        $doctype = $this->view->doctype();
-        return $doctype->isXhtml();
+        return true;
     }
 
     /**
@@ -50,8 +49,7 @@ abstract class HtmlElement
      */
     protected function _isHtml5()
     {
-        $doctype = $this->view->doctype();
-        return $doctype->isHtml5();
+        return true;
     }
 
     /**
@@ -61,8 +59,7 @@ abstract class HtmlElement
      */
     protected function _isStrictDoctype()
     {
-        $doctype = $this->view->doctype();
-        return $doctype->isStrict();
+        return true;
     }
 
     /**
