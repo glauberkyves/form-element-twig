@@ -90,11 +90,9 @@ class FormRadio extends FormElement
         $value = (array)$value;
 
         // Set up the filter - Alnum + hyphen + underscore
-        require_once 'Zend/Filter/PregReplace.php';
         $pattern = @preg_match('/\pL/u', 'a')
             ? '/[^\p{L}\p{N}\-\_]/u'    // Unicode
             : '/[^a-zA-Z0-9\-\_]/';     // No Unicode
-        $filter = new Zend_Filter_PregReplace($pattern, "");
 
         // add radio buttons to the list.
         foreach ($options as $opt_value => $opt_label) {
@@ -119,7 +117,7 @@ class FormRadio extends FormElement
             }
 
             // generate ID
-            $optId = $id . '-' . $filter->filter($opt_value);
+            $optId = $id . '-' . preg_replace($pattern, '', $opt_value);
 
             // Wrap the radios in labels
             $radio = '<label'
