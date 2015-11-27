@@ -8,8 +8,6 @@
 
 namespace GlauberKyves\Bundle\ZendFormTwigBundle\Twig;
 
-use GlauberKyves\Bundle\ZendFormTwigBundle\Twig\Exception\FormException;
-
 class AbstractExtension extends \Twig_Extension
 {
     protected $class;
@@ -35,10 +33,6 @@ class AbstractExtension extends \Twig_Extension
 
     public function __call($method, $args)
     {
-        if(!$method){
-            throw new FormException('Deve ser informado um metódo para ser executado.');
-        }
-
         if (strtolower($this->class) == strtolower($method)) {
             require_once __DIR__ . '/Form' . '/' . $this->class . '.php';
             $class = new $this->class($args);
