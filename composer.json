@@ -10,7 +10,7 @@
         }
     ],
     "require":     {
-        "symfony/symfony": "^2.6.*",
+        "symfony/symfony": "^2.6",
         "twig/twig": "~1.0"
     },
     "autoload":    {
